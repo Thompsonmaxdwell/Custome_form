@@ -1,0 +1,34 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: whitesmoke;
+    padding: 0;
+    margin: 0;
+}
+
+.icon_item_wrapper{
+    display: flex;
+    justify-content: space-between;
+    width: 60%;
+    margin: 0 auto;
+}
+.icon_items_wrap{
+    width: 60%;
+    margin: 20px auto;
+    display: grid;
+    grid-template-columns: repeat(9, 1fr);
+    grid-gap: 10px;
+}
+i{
+   font-size: 30px;
+   padding: 10px;
+   border: 1px solid #000000;
+   border-radius: 50%;
+   height: 50px;
+   width: 50px;
+   display: grid;
+   place-content: center;
+}
