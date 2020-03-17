@@ -23,7 +23,7 @@ main{
 .icon_item_wrapper p{
     position: absolute;
     top: 30%;
-    left: 10px;
+    left: 18px;
     z-index:2;
     color:#fa0;
     font-weight: 900;
@@ -37,11 +37,14 @@ main{
 }
   
 .big_heart{
-    font-size: 96px !important;
+    font-size: 90px !important;
 }
 .heart{
     margin-left: 10px;
     position: relative;
+    border: 2px solid blue;
+    border-radius: 50%;
+    padding:0 10px;
 }
 
 .icon_items_wrap{
